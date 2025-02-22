@@ -7,7 +7,7 @@ export default function handler(req, res) {
     }
 
     // تحقق من صحة `code`
-    if (code !== 'FADAI7700ki') {
+    if (code !== 'FOXC4') {
         return res.status(403).json({ error: "Unauthorized access" });
     }
 
